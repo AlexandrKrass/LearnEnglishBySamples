@@ -1,0 +1,17 @@
+<td class='sentence left'> 
+<div class='shortened_begin'>
+<span class='placeholder_begin'>
+<div class='shortened_begin2'>
+
+<span class='placeholder_begin2'>
+<span class='placeholder_begin2'>
+<div class='shortened_end2'>
+ <div class='source_url_spacer'>daccess-ods.un.org</div>
+ 
+ 
+ 
+ <td class='sentence right2'>
+ <div class='source_url'>
+
+
+
