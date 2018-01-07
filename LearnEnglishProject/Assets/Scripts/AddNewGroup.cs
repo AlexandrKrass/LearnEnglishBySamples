@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+namespace LearningEnglishBySamples
+{
+
 public class AddNewGroup : MonoBehaviour {
 	/// <summary>
-	/// Controls button "add words"
+	/// Controls button "add group"
 	/// </summary>
 	public GroupsContainer container;
 	public GameObject inputFieldGO;
@@ -28,4 +31,6 @@ public class AddNewGroup : MonoBehaviour {
 			inputFieldGO.SetActive (true);
 		}	
 	}
+}
+
 }

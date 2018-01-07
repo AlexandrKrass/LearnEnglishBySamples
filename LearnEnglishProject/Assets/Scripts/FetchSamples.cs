@@ -6,6 +6,9 @@ using System;
 using System.IO;
 using RestSharp.Contrib;
 
+namespace LearningEnglishBySamples
+{
+
 public class FetchSamples : MonoBehaviour {
 	/// <summary>
 	/// Connects to linguiee server and fetches sentences.
@@ -196,5 +199,6 @@ public class FetchSamples : MonoBehaviour {
 		endP0  = endingPattern0.ToCharArray();
 	//	anim = GetComponent<Animation> ();
 	}
+}
 
 }

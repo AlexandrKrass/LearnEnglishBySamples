@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+namespace LearningEnglishBySamples
+{
+
 public class AddNewWords : MonoBehaviour {
 	/// <summary>
 	/// Controls button "add words"
@@ -28,8 +31,8 @@ public class AddNewWords : MonoBehaviour {
 			// clean inputField
 			inputFieldData.text = "";
 			inputFieldGO.SetActive (true);
-		}
-
-	
+		}	
 	}
+}
+
 }

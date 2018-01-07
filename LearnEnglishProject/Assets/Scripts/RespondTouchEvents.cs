@@ -4,30 +4,35 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class RespondTouchEvents : MonoBehaviour {
-	
-	public GameObject container;
-	public Image imageBackground;
-	public FetchSamples samples;
-	public NavigateSentences navigate;
+namespace LearningEnglishBySamples
+{
 
-	public bool isSelected = false;
+	public class RespondTouchEvents : MonoBehaviour {
+		
+		public GameObject container;
+		public Image imageBackground;
+		public FetchSamples samples;
+		public NavigateSentences navigate;
+		public SwitchEnabledButtons enabledButtons;
+		
+		public bool isSelected = false;
 
 
-	public void ClickTap() {
-		isSelected = !isSelected;
+		public void ClickTap() {
+			isSelected = !isSelected;
 
-		Color c = imageBackground.color;
-		if (isSelected) {
-			c.a = 0.5f;
-		} else {
-			c.a = 0.333f;
-		} 	
-		imageBackground.color = c;
+			Color c = imageBackground.color;
+			if (isSelected) {
+				c.a = 0.5f;
+			} else {
+				c.a = 0.333f;
+			} 	
+			imageBackground.color = c;
 
-		navigate.SetSamples (samples);
+			navigate.SetSamples (samples);
+			enabledButtons.CheckEnabledButtons ();
+		}
 
 	}
-
 
 }

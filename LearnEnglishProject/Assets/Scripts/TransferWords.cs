@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TransferWords : MonoBehaviour {
+namespace LearningEnglishBySamples
+{
 
+public class TransferWords : MonoBehaviour {
+		/// <summary>
+		/// Controls for transfer words button.
+		/// </summary>
 	public GameObject dropDown;
 	public GameObject listContainer;
 	public GroupsContainer container;
@@ -41,15 +46,13 @@ public class TransferWords : MonoBehaviour {
 
 			container.TransferWords (toGroup, selectedWords);
 			dropDown.SetActive (false);
-
 		}	
 	}
 
 	public void DropdownGroupChanged() {
 
 		dropDown.SetActive (false);
-
 	}
-
+}
 
 }

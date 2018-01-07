@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+namespace LearningEnglishBySamples
+{
+
 public class ChangeDropDown : MonoBehaviour {
 	/// <summary>
 	/// Controls button "change active group"
@@ -21,4 +24,6 @@ public class ChangeDropDown : MonoBehaviour {
 
 		container.OutputGroup (newActiveGroup);
 	}
+}
+
 }

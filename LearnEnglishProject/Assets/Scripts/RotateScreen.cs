@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace LearningEnglishBySamples
+{
+
 public class RotateScreen : MonoBehaviour {
 	/// <summary>
 	/// 
@@ -47,4 +50,6 @@ public class RotateScreen : MonoBehaviour {
 			}		
 		}		
 	}
+}
+
 }

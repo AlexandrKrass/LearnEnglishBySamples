@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace LearningEnglishBySamples
+{
+
 public class FetchNewWords : MonoBehaviour {
 	/// <summary>
 	/// Loads sentences for words opened in the list
 	/// </summary>
-	/// 
-	/// 
-	// public GroupsContainer container;
+
 	public GameObject listContainer;
 
 
@@ -26,10 +27,9 @@ public class FetchNewWords : MonoBehaviour {
 			//	anim.Play ("LoadFromHtml");	
 							
 			}
-			//}			
-		}
-	
+			//}	
+		}	
 	}
-
+}
 
 }

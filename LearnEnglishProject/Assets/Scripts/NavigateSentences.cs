@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+namespace LearningEnglishBySamples
+{
+
 public class NavigateSentences : MonoBehaviour {
+		/// <summary>
+		/// Controls for buttons assigned to change sample sentences.
+		/// </summary>
 
 	public GroupsContainer groupContainer;
 
@@ -48,4 +54,6 @@ public class NavigateSentences : MonoBehaviour {
 			downSentenceWin.text = currentSentences.sentences [indexSentence+1];
 		}		
 	}
+}
+
 }

@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ModalManager : MonoBehaviour {
+namespace LearningEnglishBySamples
+{
 
+public class ModalManager : MonoBehaviour {
+		/// <summary>
+		/// Displays modal panel in order to confirm words/group deletion.
+		/// </summary>
 	public GameObject panelModal;
 	public GameObject listContainer;
 
@@ -77,7 +82,6 @@ public class ModalManager : MonoBehaviour {
 		isWordsDelete = false;
 		panelModal.SetActive (false);	
 	}
-
-
+}
 
 }
